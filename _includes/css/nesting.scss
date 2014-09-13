@@ -1,8 +1,8 @@
-// Without nesting
+// Ohne Schachtelung
 .table > thead > tr > th { … }
 .table > thead > tr > td { … }
 
-// With nesting
+// Mit Schachtelung
 .table > thead > tr {
   > th { … }
   > td { … }

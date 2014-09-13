@@ -4,7 +4,7 @@ layout: default
 
 
 <div class="heading" id="toc">
-  <h2>Table of contents</h2>
+  <h2>Inhaltsverzeichnis</h2>
 </div>
 <div class="section toc">
   <div class="col">
@@ -12,32 +12,32 @@ layout: default
     <ul>
       <li><a href="#html-syntax">Syntax</a></li>
       <li><a href="#html-doctype">HTML5 doctype</a></li>
-      <li><a href="#html-lang">Language attribute</a></li>
-      <li><a href="#html-encoding">Character encoding</a></li>
-      <li><a href="#html-ie-compatibility-mode">Internet Explorer compatibility mode</a></li>
-      <li><a href="#html-style-script">CSS and JavaScript includes</a></li>
-      <li><a href="#html-practicality">Practicality over purity</a></li>
-      <li><a href="#html-attribute-order">Attribute order</a></li>
-      <li><a href="#html-boolean-attributes">Boolean attributes</a></li>
-      <li><a href="#html-reducing-markup">Reducing markup</a></li>
-      <li><a href="#html-javascript">JavaScript generated markup</a></li>
+      <li><a href="#html-lang">Language Attribut</a></li>
+      <li><a href="#html-encoding">Zeichenkodierung</a></li>
+      <li><a href="#html-ie-compatibility-mode">Internet Explorer Kompatibilit&auml;tsmodus</a></li>
+      <li><a href="#html-style-script">CSS und JavaScript includes</a></li>
+      <li><a href="#html-practicality">Praktisch vor Rein</a></li>
+      <li><a href="#html-attribute-order">Attributreihenfolge</a></li>
+      <li><a href="#html-boolean-attributes">Boolesche Attribute</a></li>
+      <li><a href="#html-reducing-markup">Reduzierung des Markup</a></li>
+      <li><a href="#html-javascript">JavaScript generiertes Markup</a></li>
     </ul>
   </div>
   <div class="col">
     <h4><a href="#css">CSS</a></h4>
     <ul>
       <li><a href="#css-syntax">CSS syntax</a></li>
-      <li><a href="#css-declaration-order">Declaration order</a></li>
-      <li><a href="#css-import">Don't use @import</a></li>
-      <li><a href="#css-media-queries">Media query placement</a></li>
-      <li><a href="#css-prefixed-properties">Prefixed properties</a></li>
-      <li><a href="#css-single-declarations">Rules with single declarations</a></li>
-      <li><a href="#css-shorthand">Shorthand notation</a></li>
-      <li><a href="#css-nesting">Nesting in Less and Sass</a></li>
-      <li><a href="#css-comments">Comments</a></li>
-      <li><a href="#css-classes">Classes</a></li>
-      <li><a href="#css-selectors">Selectors</a></li>
-      <li><a href="#css-organization">Organization</a></li>
+      <li><a href="#css-declaration-order">Reihenfolge der Deklarationen</a></li>
+      <li><a href="#css-import">Vermeide @import</a></li>
+      <li><a href="#css-media-queries">Platzierung von Medienabfragen</a></li>
+      <li><a href="#css-prefixed-properties">Vorbestimmte Eigenschaften</a></li>
+      <li><a href="#css-single-declarations">Einfache Deklarationen</a></li>
+      <li><a href="#css-shorthand">Kurznotation</a></li>
+      <li><a href="#css-nesting">Verschachtelung in Less und Sass</a></li>
+      <li><a href="#css-comments">Kommentare</a></li>
+      <li><a href="#css-classes">Klassen</a></li>
+      <li><a href="#css-selectors">Selektoren</a></li>
+      <li><a href="#css-organization">Aufbau</a></li>
     </ul>
   </div>
 </div>
@@ -45,12 +45,12 @@ layout: default
 
 <div class="section" id="golden-rule">
   <div class="col">
-    <h2>Golden rule</h2>
-    <p>Enforce these, or your own, agreed upon guidelines at all times. Small or large, call out what's incorrect. For additions or contributions to this Code Guide, please <a href="https://github.com/mdo/code-guide/issues/new">open an issue on GitHub</a>.</p>
+    <h2>Goldene Regel</h2>
+    <p>Halte dich immer an definierte Regeln - seien es diese, oder eigene. Gro&szlig;e oder kleine Fehler - melde dich, wenn du Unstimmigkeiten gefunden hast. Um Beitr&auml;ge zu diesem Styleguide zu liefern, &ouml;ffne bitte ein Issue auf <a href="https://github.com/mdo/code-guide/issues/new">GitHub</a>.</p>
   </div>
   <div class="col">
     <blockquote>
-      <p>Every line of code should appear to be written by a single person, no matter the number of contributors.</p>
+      <p>Jede Zeile Code sollte so aussehen, als wenn sie von einer Person geschrieben wurde, egal, wieviele wirklich daran gearbeitet haben.</p>
     </blockquote>
   </div>
 </div>
@@ -65,11 +65,11 @@ layout: default
   <div class="col">
     <h3>Syntax</h3>
     <ul>
-      <li>Use soft tabs with two spaces—they're the only way to guarantee code renders the same in any environment.</li>
-      <li>Nested elements should be indented once (two spaces).</li>
-      <li>Always use double quotes, never single quotes, on attributes.</li>
-      <li>Don't include a trailing slash in self-closing elements—the <a href="http://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag">HTML5 spec</a> says they're optional.</li>
-      <li>Don’t omit optional closing tags (e.g. <code>&lt;/li&gt;</code> or <code>&lt;/body&gt;</code>).</li>
+      <li>Benutze Soft-Tabs mit 2 Leerzeichen - es ist die einzige M&ouml;glichkeit zu garantieren, dass der Code in allen Umgebungen gleich gerendert wird.</li>
+      <li>Verschachtelte Elemente sollten einfach einger&uuml;ckt werden (mit 2 Leerzeichen).</li>
+      <li>Verwende Anf&uuml;hrungszeichen f&uuml;r Attribute, keine Apostrophe.</li>
+      <li>Benutze keine abschlie&szlig;enden Schr&auml;gstriche in selbstschlie&szlig;enden Elementen - die <a href="http://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag">HTML5 Spezifikationen</a> besagen, dass sie optional sind.</li>
+      <li>Lasse keine schlie&szlig;enden Tags weg (z.B. <code>&lt;/li&gt;</code> oder <code>&lt;/body&gt;</code>).</li>
     </ul>
   </div>
   <div class="col">
@@ -79,8 +79,8 @@ layout: default
 
 <div class="section" id="html-doctype">
   <div class="col">
-    <h3>HTML5 doctype</h3>
-    <p>Enforce standards mode and more consistent rendering in every browser possible with this simple doctype at the beginning of every HTML page.</p>
+    <h3>HTML5 Doctype</h3>
+    <p>Aktiviere den Standardmodus und konsistenteres Rendering in allen Browsern, indem der Doctype am Beginn jeder HTML Seite angegeben wird.</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/doctype.html %}{% endhighlight %}
@@ -89,13 +89,13 @@ layout: default
 
 <div class="section" id="html-lang">
   <div class="col">
-    <h3>Language attribute</h3>
-    <p>From the HTML5 spec:</p>
+    <h3>Sprachattribut</h3>
+    <p>Aus der HTML5 Spezifikation:</p>
     <blockquote>
-      <p>Authors are encouraged to specify a lang attribute on the root html element, giving the document's language. This aids speech synthesis tools to determine what pronunciations to use, translation tools to determine what rules to use, and so forth.</p>
+      <p>Autoren wird empfohlen, ein Sprachattribut im Root-HTML Tag anzugeben, um die Sprache des Dokuments bekanntzumachen. Es hilft Sprachausgabetools die richtige Aussprache zu w&auml;hlen, &Uuml;bersetzungstools die richtigen Regeln zu verwenden, usw.</p>
     </blockquote>
-    <p>Read more about the <code>lang</code> attribute <a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">in the spec</a>.</p>
-    <p>Head to Sitepoint for a <a href="http://reference.sitepoint.com/html/lang-codes">list of language codes</a>.</p>
+    <p>Weitere Informationen &uuml;ber das <code>lang</code> Attribut finden sich <a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">in den Spezifikationen</a>.</p>
+    <p>Auf Sitepoint findet sich eine <a href="http://reference.sitepoint.com/html/lang-codes">Liste der Sprachcodes</a>.</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/lang.html %}{% endhighlight %}
@@ -104,9 +104,9 @@ layout: default
 
 <div class="section" id="html-ie-compatibility-mode">
   <div class="col">
-    <h3>IE compatibility mode</h3>
-    <p>Internet Explorer supports the use of a document compatibility <code>&lt;meta&gt;</code> tag to specify what version of IE the page should be rendered as. Unless circumstances require otherwise, it's most useful to instruct IE to use the latest supported mode with <strong>edge mode</strong>.</p>
-    <p>For more information, <a href="http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e">read this awesome Stack Overflow article</a>.</p>
+    <h3>IE Kompatibilit&auml;tsmodus</h3>
+    <p>Der Internet Explorer unterst&uuml;tzt einen Kompatibilit&auml;tsmodus durch den <code>&lt;meta&gt;</code> Tag, um anzugeben, unter welcher IE Version die Seite gerendert werden soll. Sofern es andere Umst&auml;nde nicht verlangen, sollte immer die modernste Version gew&auml;hlt werden, indem der <strong>Edge Modus</strong> verwendet wird.</p>
+    <p>Weitere Informationen h&auml;lt dieser hervorragende <a href="http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e"> Stack Overflow Artikel</a> bereit.</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/ie-compatibility-mode.html %}{% endhighlight %}
@@ -115,8 +115,8 @@ layout: default
 
 <div class="section" id="html-encoding">
   <div class="col">
-    <h3>Character encoding</h3>
-    <p>Quickly and easily ensure proper rendering of your content by declaring an explicit character encoding. When doing so, you may avoid using character entities in your HTML, provided their encoding matches that of the document (generally UTF-8).</p>
+    <h3>Zeichenkodierung</h3>
+    <p>Das richtige Rendering des Inhalts kann schnell und einfach mit einer expliziten Zeichenkodierung festgelegt werden. Wenn die Zeichenkoderung auf diese Art gesetzt wurde, kann auf die einzelne Deklaration in HTML Elementen verzeichtet werden, sofern sie mit der des Dokumentes &uuml;bereinstimmen (normalerweise UTF-8).</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/encoding.html %}{% endhighlight %}
@@ -125,13 +125,13 @@ layout: default
 
 <div class="section" id="html-style-script">
   <div class="col">
-    <h3>CSS and JavaScript includes</h3>
-    <p>Per HTML5 spec, typically there is no need to specify a <code>type</code> when including CSS and JavaScript files as <code>text/css</code> and <code>text/javascript</code> are their respective defaults.</p>
-    <h4>HTML5 spec links</h4>
+    <h3>CSS und JavaScript includes</h3>
+    <p>Nach den HTML5 Spezifikationen ist es nicht notwendig, einen <code>type</code> anzugeben, da CSS und JavaScript Dateien per Voreinstellung als <code>text/css</code> und <code>text/javascript</code> erwartet werden.</p>
+    <h4>HTML5 Spezifikation links</h4>
     <ul>
-      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-link-element">Using link</a></li>
-      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-style-element">Using style</a></li>
-      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/scripting-1.html#the-script-element">Using script</a></li>
+      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-link-element">Benutzung von link</a></li>
+      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-style-element">Benutzung von style</a></li>
+      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/scripting-1.html#the-script-element">Benutzung von script</a></li>
     </ul>
   </div>
   <div class="col">
@@ -141,15 +141,15 @@ layout: default
 
 <div class="section" id="html-practicality">
   <div class="col">
-    <h3>Practicality over purity</h3>
-    <p>Strive to maintain HTML standards and semantics, but not at the expense of practicality. Use the least amount of markup with the fewest intricacies whenever possible.</p>
+    <h3>Praktisch vor Rein</h3>
+    <p>Bem&uuml;he dich, die HTML Standards und Semantik beizubehalten, aber nicht zum Preis von Praktikabilit&auml;t. Benutze so wenig Markup mit den wenigsten Komplexit&auml;ten, wie m&ouml;glich.</p>
   </div>
 </div>
 
 <div class="section" id="html-attribute-order">
   <div class="col">
-    <h3>Attribute order</h3>
-    <p>HTML attributes should come in this particular order for easier reading of code.</p>
+    <h3>Attributreihenfolge</h3>
+    <p>HTML Attribute sollten in der folgenden Ordnung erscheinen, um die Leserlichkeit zu erleichtern.</p>
     <ul>
       <li><code>class</code></li>
       <li><code>id</code>, <code>name</code></li>
@@ -158,7 +158,7 @@ layout: default
       <li><code>title</code>, <code>alt</code></li>
       <li><code>aria-*</code>, <code>role</code></li>
     </ul>
-    <p>Classes make for great reusable components, so they come first. Ids are more specific and should be used sparingly (e.g., for in-page bookmarks), so they come second.</p>
+    <p>Klassen beinhalten wiederverwendbare Komponenten, also kommen sie zuerst. IDs sind eher spezifisch und sollten seltener verwendet werden (z.B. f&uuml;r seiteninterne Lesezeichen), also kommen sie als zweites.</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/attribute-order.html %}{% endhighlight %}
@@ -167,17 +167,17 @@ layout: default
 
 <div class="section" id="html-boolean-attributes">
   <div class="col">
-    <h3>Boolean attributes</h3>
-    <p>A boolean attribute is one that needs no declared value. XHTML required you to declare a value, but HTML5 has no such requirement.</p>
-    <p>For further reading, consult the <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#boolean-attributes">WhatWG section on boolean attributes</a>:</p>
+    <h3>Boolesche Attribute</h3>
+    <p>Ein boolesches Attribute braucht keinen Wert. XHTML verlangt einen gegebenen Wert, aber HTML5 ben&ouml;tigt es nicht.</p>
+    <p>Weitere Informationen finden sich im <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#boolean-attributes">WhatWG Abschnitt f&uuml;r boolesche Attribute</a>:</p>
     <blockquote>
-      <p>The presence of a boolean attribute on an element represents the true value, and the absence of the attribute represents the false value.</p>
+      <p>Die Anwesenheit eines booleschen Attributes an einem Element symbolisiert den Wahr-Wert, die Abwesenheit des Attributs den Falsch-Wert.</p>
     </blockquote>
-    <p>If you <em>must</em> include the attribute's value, and <strong>you don't need to</strong>, follow this WhatWG guideline:</p>
+    <p>Wenn der Wert des Attributs angegeben werden <em>muss</em>, obwohl es eigentlich <strong>nicht notwendig ist</strong>, folge diesem WhatWG Leitsatz:</p>
     <blockquote>
-      <p>If the attribute is present, its value must either be the empty string or [...] the attribute's canonical name, with no leading or trailing whitespace.</p>
+      <p>Wenn das Attribut vorhanden ist, muss sein Wert entweder ein leerer String oder [...] der kanonische Name des Attributs ohne f&uuml;hrendes oder nachgestelltes Leerzeichen sein.</p>
     </blockquote>
-    <p><strong>In short, don't add a value.</strong></p>
+    <p><strong>Kurzgefasst: F&uuml;ge keinen Wert hinzu.</strong></p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/boolean-attributes.html %}{% endhighlight %}
@@ -186,8 +186,8 @@ layout: default
 
 <div class="section" id="html-reducing-markup">
   <div class="col">
-    <h3>Reducing markup</h3>
-    <p>Whenever possible, avoid superfluous parent elements when writing HTML. Many times this requires iteration and refactoring, but produces less HTML. Take the following example:</p>
+    <h3>Reduzierung des Markup</h3>
+    <p>Wenn m&ouml;glich, vermeide &uuml;berfl&uuml;ssige Elternelemente beim Schreiben von HTML. Oft sind hierf&uuml;r Code-Iterationen und Refactoring notwendig, aber letzendlich wird weniger HTML produziert, wie das Beispiel zeigt:</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/reducing-markup.html %}{% endhighlight %}
@@ -196,8 +196,8 @@ layout: default
 
 <div class="section" id="html-javascript">
   <div class="col">
-    <h3>JavaScript generated markup</h3>
-    <p>Writing markup in a JavaScript file makes the content harder to find, harder to edit, and less performant. Avoid it whenever possible.</p>
+    <h3>JavaScript generiertes Markup</h3>
+    <p>Das Schreiben von Markup in JavaScript macht den Inhalt schwerer zu finden, schwerer zu editieren und weniger performant. Vermeide dies, wo m&ouml;glich.</p>
   </div>
 </div>
 
@@ -211,22 +211,22 @@ layout: default
   <div class="col">
     <h3>Syntax</h3>
     <ul>
-      <li>Use soft tabs with two spaces—they're the only way to guarantee code renders the same in any environment.</li>
-      <li>When grouping selectors, keep individual selectors to a single line.</li>
-      <li>Include one space before the opening brace of declaration blocks for legibility.</li>
-      <li>Place closing braces of declaration blocks on a new line.</li>
-      <li>Include one space after <code>:</code> for each declaration.</li>
-      <li>Each declaration should appear on its own line for more accurate error reporting.</li>
-      <li>End all declarations with a semi-colon. The last declaration's is optional, but your code is more error prone without it.</li>
-      <li>Comma-separated property values should include a space after each comma (e.g., <code>box-shadow</code>).</li>
-      <li>Don't include spaces after commas <em>within</em> <code>rgb()</code>, <code>rgba()</code>, <code>hsl()</code>, <code>hsla()</code>, or <code>rect()</code> values. This helps differentiate multiple color values (comma, no space) from multiple property values (comma with space).</li>
-      <li>Don't prefix property values or color parameters with a leading zero (e.g., <code>.5</code> instead of <code>0.5</code> and <code>-.5px</code> instead of <code>-0.5px</code>).</li>
-      <li>Lowercase all hex values, e.g., <code>#fff</code>. Lowercase letters are much easier to discern when scanning a document as they tend to have more unique shapes.</li>
-      <li>Use shorthand hex values where available, e.g., <code>#fff</code> instead of <code>#ffffff</code>.</li>
-      <li>Quote attribute values in selectors, e.g., <code>input[type="text"]</code>. <a href="http://mathiasbynens.be/notes/unquoted-attribute-values#css">They’re only optional in some cases</a>, and it’s a good practice for consistency.</li>
-      <li>Avoid specifying units for zero values, e.g., <code>margin: 0;</code> instead of <code>margin: 0px;</code>.</li>
+      <li>Benutze Soft-Tabs mit 2 Leerzeichen - es ist die einzige M&ouml;glichkeit zu garantieren, dass der Code in allen Umgebungen gleich gerendert wird.</li>
+      <li>Lasse beim gruppieren von Selektoren jedem Selektor seine eigene Zeile.</li>
+      <li>F&uuml;r bessere Lesbarkeit, f&uuml;ge ein Leerzeichen vor jeder &ouml;ffnenden Klammer eines Deklarationsblocks hinzu.</li>
+      <li>Platziere schlie&szlig;ende Klammern in einer neuen Zeile.</li>
+      <li>F&uuml;ge ein Leerzeichen hinter jedem <code>:</code> f&uuml;r jede Deklaration hinzu.</li>
+      <li>F&uuml;r ein genaueres Fehlerreporting sollte jede Deklaration in einer eigenen Zeile stehen.</li>
+      <li>Beende jede Deklaration mit einem Semikolon. F&uuml;r die letzte Deklaration ist dies optional, aber ohne ist der Code fehleranf&auml;lliger.</li>
+      <li>Kommagetrennte Eigenschaftswerte sollten ein Leerzeichen nach jedem Komma enthalten (z.B.<code>box-shadow</code>).</li>
+      <li>F&uuml;ge keine Kommata <em>innerhalb</em> <code>rgb()</code>, <code>rgba()</code>, <code>hsl()</code>, <code>hsla()</code>, oder <code>rect()</code> Werten hinzu. Es hilft, verschiedene Farbwerte (Komma, kein Leerzeichen) von verschiedenen Eigenschaftswerten (Komma, mit Leerzeichen) zu unterscheiden.</li>
+      <li>F&uuml;ge Eigenschaftswerten oder Farbwerten keine f&uuml;hrenden Nullen hinzu (z.B., <code>.5</code> anstatt <code>0.5</code> und <code>-.5px</code> anstatt <code>-0.5px</code>).</li>
+      <li>Schreibe Hexwerte klein, z.B. <code>#fff</code>. Kleingeschriebene Buchstaben sind beim Lesen eines Dokumentes einfacher zu unterscheiden, da sie mehr einzigartige Formen aufweisen.</li>
+      <li>Verwende kurze Hexwerte, wenn m&ouml;glich. Z.B. <code>#fff</code> anstatt <code>#ffffff</code>.</li>
+      <li>Setze Attributwerte in Anf&uuml;hrungszeichen, z.B. <code>input[type="text"]</code>. <a href="http://mathiasbynens.be/notes/unquoted-attribute-values#css">Sie sind nur in einigen F&auml;llen optional</a> und es ist eine Gew&ouml;hnung an Konsistenz.</li>
+      <li>Vermeide das Setzen von Einheiten f&uuml;r Nullwerte, z.B. <code>margin: 0;</code> anstatt <code>margin: 0px;</code>.</li>
     </ul>
-    <p>Questions on the terms used here? See the <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Syntax">syntax section of the Cascading Style Sheets article</a> on Wikipedia.</p>
+    <p>Fragen bez&uuml;glich den hier verwendeten Begriffen? Weitere Informationen gibt es im <a href="http://de.wikipedia.org/wiki/Cascading_Style_Sheets#Syntax">Syntax Abschnitt des Cascading Style Sheet Artikels</a> auf Wikipedia.</p> 
   </div>
   <div class="col">
     {% highlight css %}{% include css/syntax.css %}{% endhighlight %}
@@ -235,17 +235,17 @@ layout: default
 
 <div class="section" id="css-declaration-order">
   <div class="col">
-    <h3>Declaration order</h3>
-    <p>Related property declarations should be grouped together following the order:</p>
+    <h3>Reihenfolge der Deklarationen</h3>
+    <p>Verbundene Eigenschaftsdeklarationen sollten in der folgenden Reihenfolge gruppiert werden:</p>
     <ol>
-      <li>Positioning</li>
-      <li>Box model</li>
-      <li>Typographic</li>
-      <li>Visual</li>
+      <li>Positionierung</li>
+      <li>Box Modell</li>
+      <li>Typographie</li>
+      <li>Aussehen</li>
     </ol>
-    <p>Positioning comes first because it can remove an element from the normal flow of the document and override box model related styles. The box model comes next as it dictates a component's dimensions and placement.</p>
-    <p>Everything else takes place <em>inside</em> the component or without impacting the previous two sections, and thus they come last.</p>
-    <p>For a complete list of properties and their order, please see <a href="http://twitter.github.com/recess">Recess</a>.</p>
+    <p>Positionierung kommt an erster Stelle, da es ein Element aus der normalen Verarbeitung eines Dokuments entfernen kann und Box Modell Styles &uuml;berschreiben kann. Das Box Modell kommt als n&auml;chstes, da es die Gr&ouml;&szlig;e und Platzierung der Komponente bestimmt.</p>
+    <p>Alles andere kommt hinterher, da es die Komponente im Inneren gestaltet, ohne die vorherigen beiden Sektionen zu beeinflussen</p>
+    <p>Eine komplette Liste der Eigenschaften und ihrer Reihenfolge kann bei <a href="http://twitter.github.com/recess">Recess</a> gefunden werden.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/declaration-order.css %}{% endhighlight %}
@@ -254,14 +254,14 @@ layout: default
 
 <div class="section" id="css-import">
   <div class="col">
-    <h3>Don't use <code>@import</code></h3>
-    <p>Compared to <code>&lt;link&gt;</code>s, <code>@import</code> is slower, adds extra page requests, and can cause other unforeseen problems. Avoid them and instead opt for an alternate approach:</p>
+    <h3>Vermeide <code>@import</code></h3>
+    <p>Verglichen mit <code>&lt;link&gt;</code>s ist <code>@import</code> langsamer, f&uuml;hrt zu mehr Seitenanforderungen und kann andere unvorhergesehene Probleme verursachen. Vermeide es und benutze stattdessen andere Ans&auml;tze:</p>
     <ul>
-      <li>Use multiple <code>&lt;link&gt;</code> elements</li>
-      <li>Compile your CSS with a preprocessor like Sass or Less into a single file</li>
-      <li>Concatenate your CSS files with features provided in Rails, Jekyll, and other environments</li>
+      <li>Benutze mehrere <code>&lt;link&gt;</code> Elemente</li>
+      <li>Kompiliere das CSS mit einem Pr&auml;prozessor wie Sass oder Less in eine einzige Datei</li>
+      <li>Verbinde die CSS Dateien mit Tools, die von Rails, Jekyll oder anderen Umgebungen bereitgestellt werden</li>
     </ul>
-    <p>For more information, <a href="http://www.stevesouders.com/blog/2009/04/09/dont-use-import/">read this article by Steve Souders</a>.</p>
+    <p>Weitere Informationen finden sich in einem <a href="http://www.stevesouders.com/blog/2009/04/09/dont-use-import/">Artikel von Steve Souders</a>.</p>
   </div>
   <div class="col">
     {% highlight html %}{% include css/import.html %}{% endhighlight %}
@@ -270,8 +270,8 @@ layout: default
 
 <div class="section" id="css-media-queries">
   <div class="col">
-    <h3>Media query placement</h3>
-    <p>Place media queries as close to their relevant rule sets whenever possible. Don't bundle them all in a separate stylesheet or at the end of the document. Doing so only makes it easier for folks to miss them in the future. Here's a typical setup.</p>
+    <h3>Platzierung von Medienabfragen</h3>
+    <p>Medienabfragen sollten so nahe wie m&ouml;glich an den f&uuml;r sie relevanten Regeln platziert werden. B&uuml;ndle sie nicht alle in einem separaten Stylesheet oder am Ende des Dokuments, andernfalls ist es einfach f&uuml;r andere, sie in Zukunft zu &uuml;bersehen. Hier ist eine typische Deklaration.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/media-queries.css %}{% endhighlight %}
@@ -280,9 +280,9 @@ layout: default
 
 <div class="section" id="css-prefixed-properties">
   <div class="col">
-    <h3>Prefixed properties</h3>
-    <p>When using vendor prefixed properties, indent each property such that the declaration's value lines up vertically for easy multi-line editing.</p>
-    <p>In Textmate, use <strong>Text &rarr; Edit Each Line in Selection</strong> (&#8963;&#8984;A). In Sublime Text 2, use <strong>Selection &rarr; Add Previous Line</strong> (&#8963;&#8679;&uarr;) and <strong>Selection &rarr;  Add Next Line</strong> (&#8963;&#8679;&darr;).</p>
+    <h3>Vorbestimmte Eigenschaften</h3>
+    <p>Wenn herstellervorbestimmte Eigenschaften verwendet werden, r&uuml;cke jede Eigenschaft so ein, dass die Deklarationswerte genau untereinander stehen, damit sie einfach bearbeitet werden k&ouml;nnen.</p>
+    <p>In Textmate, dr&uuml;cke <strong>Text &rarr; Edit Each Line in Selection</strong> (&#8963;&#8984;A). In Sublime Text 2, dr&uuml;cke <strong>Selection &rarr; Add Previous Line</strong> (&#8963;&#8679;&uarr;) und <strong>Selection &rarr;  Add Next Line</strong> (&#8963;&#8679;&darr;).</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/prefixed-properties.css %}{% endhighlight %}
@@ -291,9 +291,9 @@ layout: default
 
 <div class="section" id="css-single-declarations">
   <div class="col">
-    <h3>Single declarations</h3>
-    <p>In instances where a rule set includes <strong>only one declaration</strong>, consider removing line breaks for readability and faster editing. Any rule set with multiple declarations should be split to separate lines.</p>
-    <p>The key factor here is error detection—e.g., a CSS validator stating you have a syntax error on Line 183. With a single declaration, there's no missing it. With multiple declarations, separate lines is a must for your sanity.</p>
+    <h3>Einfache Deklarationen</h3>
+    <p>In F&auml;llen, in denen ein Regelsatz <strong>nur eine einzige Deklaration</strong> enth&auml;lt, sollte der Zeilenumbruch f&uuml;r leichtere Lesbarkeit und schnelleres Editieren entfernt werden.</p>
+    <p>Der Punkt ist hier Fehlererkennung - z.B. ein CSS Validator, der aussagt, dass ein Syntax Error in Zeile 183 vorliegt. Mit einer einzigen Deklaration kann man ihn nicht verfehlen. Bei vielen Deklarationen sind separate Zeilen ein Muss.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/single-declarations.css %}{% endhighlight %}
@@ -302,8 +302,8 @@ layout: default
 
 <div class="section" id="css-shorthand">
   <div class="col">
-    <h3>Shorthand notation</h3>
-    <p>Strive to limit use of shorthand declarations to instances where you must explicitly set all the available values. Common overused shorthand properties include:</p>
+    <h3>Kurznotation</h3>
+    <p>Bem&uuml;he dich, Kurznotationen nur in den F&auml;llen zu benutzen, wo alle verf&uuml;gbaren Werte explizit gesetzt werden m&uuml;ssen. &Uuml;berm&auml;&szlig;ig benutzte Eigenschaften sind beispielsweise:</p>
     <ul>
       <li><code>padding</code></li>
       <li><code>margin</code></li>
@@ -312,8 +312,8 @@ layout: default
       <li><code>border</code></li>
       <li><code>border-radius</code></li>
     </ul>
-    <p>Often times we don't need to set all the values a shorthand property represents. For example, HTML headings only set top and bottom margin, so when necessary, only override those two values. Excessive use of shorthand properties often leads to sloppier code with unnecessary overrides and unintended side effects.</p>
-    <p>The Mozilla Developer Network has a great article on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties">shorthand properties</a> for those unfamiliar with notation and behavior.</p>
+    <p>Oft m&uuml;ssen nicht alle Werte gesetzt werden, die eine Kurznotation repr&auml;sentiert. Zum Beispiel setzen HTML &Uuml;berschriften nur den oberen und unteren margin, also m&uuml;ssen nur diese beiden Werte &uuml;berschrieben werden, wenn es notwendig ist. Ausschweifende Benutzung von Kurznotation in Eigenschaften f&uuml;hrt oft zu schlampigem Code mit unn&ouml;tigen &Uuml;berschreibungen und ungewollten Nebeneffekten.</p>
+    <p>Im Mozilla Entwicklernetzwerk gibt es einen gro&szlig;artigen Artikel &uuml;ber <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties">Kurznotationen f&uuml;r Eigenschaften</a> f&uuml;r diejenigen, die mit Notationen und deren Verhalten nicht vertraut sind.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/shorthand.css %}{% endhighlight %}
@@ -322,8 +322,8 @@ layout: default
 
 <div class="section" id="css-nesting">
   <div class="col">
-    <h3>Nesting in Less and Sass</h3>
-    <p>Avoid unnecessary nesting. Just because you can nest, doesn't mean you always should. Consider nesting only if you must scope styles to a parent and if there are multiple elements to be nested.</p>
+    <h3>Verschachtelung in Less und Sass</h3>
+    <p>Vermeide unn&ouml;tige Verschachtelungen. Nur weil verschachtelt werden kann, hei&szlig;t das nicht, dass man es immer sollte. Ber&uuml;cksichtige Verschachtelung nur, wenn Styles im Elternelement g&uuml;ltig sein m&uuml;ssen und wenn mehrere Elemente zu verschachteln sind.</p>
   </div>
   <div class="col">
     {% highlight scss %}{% include css/nesting.scss %}{% endhighlight %}
@@ -332,9 +332,9 @@ layout: default
 
 <div class="section" id="css-comments">
   <div class="col">
-    <h3>Comments</h3>
-    <p>Code is written and maintained by people. Ensure your code is descriptive, well commented, and approachable by others. Great code comments convey context or purpose. Do not simply reiterate a component or class name.</p>
-    <p>Be sure to write in complete sentences for larger comments and succinct phrases for general notes.</p>
+    <h3>Kommentare</h3>
+    <p>Der Code wird von Menschen geschrieben und gepflegt. Stelle sicher, dass dein Code anschaulich, gut kommentiert und f&uuml;r andere zug&auml;nglich ist. Gute Kommentare vermitteln Kontext oder Zweck. Wiederhole nicht einfach den Komponenten- oder Klassennamen.</p>
+    <p>Stelle sicher, dass in l&auml;ngeren Kommentaren komplette S&auml;tze geschrieben werden und k&uuml;rze S&auml;tze in generellen Anmerkungen.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/comments.css %}{% endhighlight %}
@@ -343,16 +343,16 @@ layout: default
 
 <div class="section" id="css-classes">
   <div class="col">
-    <h3>Class names</h3>
+    <h3>Klassennamen</h3>
     <ul>
-      <li>Keep classes lowercase and use dashes (not underscores or camelCase). Dashes serve as natural breaks in related class (e.g., <code>.btn</code> and <code>.btn-danger</code>).</li>
-      <li>Avoid excessive and arbitrary shorthand notation. <code>.btn</code> is useful for <em>button</em>, but <code>.s</code> doesn't mean anything.</li>
-      <li>Keep classes as short and succinct as possible.</li>
-      <li>Use meaningful names; use structural or purposeful names over presentational.</li>
-      <li>Prefix classes based on the closest parent or base class.</li>
-      <li>Use <code>.js-*</code> classes to denote behavior (as opposed to style), but keep these classes out of your CSS.</li>
+      <li>Schreibe Klassennamen in Kleinbuchstaben und benutze Bindestriche (keine Unterstriche oder camelCase). Bindestriche dienen als nat&uuml;rliche Unterbrechungen in verbundenen Klassen (z.B. <code>.btn</code> und <code>.btn-danger</code>).</li>
+      <li>Vermeide ausschweifende und beliebige Kurznotationen. <code>.btn</code> ist eine n&uuml;tzliche Abk&uuml;rzung f&uuml;r <em>button</em>, aber <code>.s</code> ist bedeutungslos.</li>
+      <li>Benenne Klassen so kurz und b&uuml;ndig wie m&ouml;glich.</li>
+      <li>Benutze aussagekr&auml;ftige Namen; benutze zweck- oder strukturgebundene Namen, anstatt toll klingende.</li>
+      <li>W&auml;hle ein Klassenpr&auml;fix, das auf die n&auml;chsten Eltern oder Basisklasse verweist.</li>
+      <li>Benutze <code>.js-*</code> Klassen, um Verhalten anzudeuten (im Gegensatz zu einem Style), aber halte diese Klassen aus dem CSS heraus.</li>
     </ul>
-    <p>It's also useful to apply many of these same rules when creating Sass and Less variable names.</p>
+    <p>Au&szlig;erdem ist es hilfreich, viele dieser Regeln beizubehalten, wenn Sass und Less Variablennamen erstellt werden.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/class-names.css %}{% endhighlight %}
@@ -361,17 +361,17 @@ layout: default
 
 <div class="section" id="css-selectors">
   <div class="col">
-    <h3>Selectors</h3>
+    <h3>Selektoren</h3>
     <ul>
-      <li>Use classes over generic element tag for optimum rendering performance.</li>
-      <li>Avoid using several attribute selectors (e.g., <code>[class^="..."]</code>) on commonly occuring components. Browser performance is known to be impacted by these.</li>
-      <li>Keep selectors short and strive to limit the number of elements in each selector to three.</li>
-      <li>Scope classes to the closest parent <strong>only</strong> when necessary (e.g., when not using prefixed classes).</li>
+      <li>Benutze Klassen anstatt generische Element-Tags, um eine optimale Renderingperformance zu erreichen.</li>
+      <li>Vermeide mehrere Attributselektoren (z.B. <code>[class^="..."]</code>) bei  gew&ouml;hnlich verwendeten Komponenten. Es ist bekannt, dass die Browserperformance dadurch beeintr&auml;chtigt wird.</li>
+      <li>Halte Selektoren kurz und versuche die Anzahl der Elemente in jedem Selektor auf drei zu begrenzen.</li>
+      <li>Setze den Geltungsrahmen zum n&auml;chsten Elterntag <strong>nur</strong> wenn n&ouml;tig (z.B. wenn keine Pr&auml;fixklassen verwendet werden).</li>
     </ul>
-    <p>Additional reading:</p>
+    <p>Weitere informationen:</p>
     <ul>
-      <li><a href="http://markdotto.com/2012/02/16/scope-css-classes-with-prefixes/">Scope CSS classes with prefixes</a></li>
-      <li><a href="http://markdotto.com/2012/03/02/stop-the-cascade/">Stop the cascade</a></li>
+      <li><a href="http://markdotto.com/2012/02/16/scope-css-classes-with-prefixes/">Geltungsrahmen von CSS Pr&auml;fixklassen</a></li>
+      <li><a href="http://markdotto.com/2012/03/02/stop-the-cascade/">Stopp das Verschachteln</a></li>
     </ul>
   </div>
   <div class="col">
@@ -381,12 +381,12 @@ layout: default
 
 <div class="section" id="css-organization">
   <div class="col">
-    <h3>Organization</h3>
+    <h3>Aufbau</h3>
     <ul>
-      <li>Organize sections of code by component.</li>
-      <li>Develop a consistent commenting hierarchy.</li>
-      <li>Use consistent white space to your advantage when separating sections of code for scanning larger documents.</li>
-      <li>When using multiple CSS files, break them down by component instead of page. Pages can be rearranged and components moved.</li>
+      <li>Ordne Codesektionen nach Komponenten an.</li>
+      <li>Entwickle eine konsistente Kommentierungshierarchie.</li>
+      <li>Benutze konsistente Leerzeichen zu deinem Vorteil, wenn einzelne Sektionen in einem gr&ouml;&szlig;eren Dokument voneinander getrennt werden.</li>
+      <li>Wenn mehrere CSS Dateien verwendet werden, teile sie nach Komponenten, anstatt Seiten auf. Seiten k&ouml;nnen neu angeordnet und Komponenten verschoben werden.</li>
     </ul>
   </div>
   <div class="col">
@@ -396,14 +396,14 @@ layout: default
 
 <div class="section" id="css-editor-prefs">
   <div class="col">
-    <h3>Editor preferences</h3>
-    <p>Set your editor to the following settings to avoid common code inconsistencies and dirty diffs:</p>
+    <h3>Editor Einstellungen</h3>
+    <p>Stelle deinen Editor folgenderma&szlig;en ein, um verbreitete Inkonsistenzen und dirty diffs zu vermeiden:</p>
     <ul>
-      <li>Use soft-tabs set to two spaces.</li>
-      <li>Trim trailing white space on save.</li>
-      <li>Set encoding to UTF-8.</li>
-      <li>Add new line at end of files.</li>
+      <li>Benutze Soft-Tabs mit zwei Leerzeichen</li>
+      <li>Schneide nachlaufende Leerzeichen beim Speichern ab.</li>
+      <li>Aktiviere UTF-8 codierung.</li>
+      <li>F&uuml;ge am Ende der Datei eine Leerzeile hinzu.</li>
     </ul>
-    <p>Consider documenting and applying these preferences to your project's <code>.editorconfig</code> file. For an example, see <a href="https://github.com/twbs/bootstrap/blob/master/.editorconfig">the one in Bootstrap</a>. Learn more <a href="http://editorconfig.org">about EditorConfig</a>.</p>
+    <p>Ziehe in Erw&auml;gung, diese Einstellungen in die <code>.editorconfig</code>-Datei deines Projektes zu schreiben. F&uuml;r ein Beispiel, <a href="https://github.com/twbs/bootstrap/blob/master/.editorconfig">schaue dir diese Datei in Bootstrap an</a>. Mehr <a href="http://editorconfig.org">&uuml;ber EditorConfig erfahren</a>.</p>
   </div>
 </div>

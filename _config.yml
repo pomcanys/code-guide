@@ -1,6 +1,6 @@
-name:          Code Guide by @mdo
-description:   Standards for developing flexible, durable, and sustainable HTML and CSS.
-url:           http://codeguide.co
+name:          Codeguide von @mdo
+description:   Richtlinien zur Entwicklung von flexiblem, wartbarem und best&auml;ndigem HTML und CSS.
+url:           http://BackendButters.github.io/code-guide/
 
 markdown:      rdiscount
 permalink:     pretty

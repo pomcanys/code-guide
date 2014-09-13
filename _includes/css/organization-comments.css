@@ -1,17 +1,17 @@
 /*
- * Component section heading
+ * Komponentensektion Ueberschrift
  */
 
 .element { ... }
 
 
 /*
- * Component section heading
+ * Komponentensektion &Uuml;berschrift
  *
- * Sometimes you need to include optional context for the entire component. Do that up here if it's important enough.
+ * Manchmal muss optionaler Kontext fuer die gesamte Komponente eingefuegt werden. Mache es so wie hier, wenn es wichtig ist.
  */
 
 .element { ... }
 
-/* Contextual sub-component or modifer */
+/* Kontextuelle Subkomponente oder Attribut */
 .element-heading { ... }

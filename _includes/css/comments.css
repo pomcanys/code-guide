@@ -1,11 +1,11 @@
-/* Bad example */
-/* Modal header */
+/* Schlechtes Beispiel */
+/* Modaler Header */
 .modal-header {
   ...
 }
 
-/* Good example */
-/* Wrapping element for .modal-title and .modal-close */
+/* Gutes Beispiel */
+/* Umschliessendes Element fuer .modal-title und .modal-close */
 .modal-header {
   ...
 }
