@@ -1,11 +1,28 @@
-/* Schlechtes Beispiel */
-/* Modaler Header */
-.modal-header {
-  ...
-}
+/**
+ * Kurze Beschreibung im Doxygen-Stilformat
+ *
+ * Der erste Satz der langen Beschreibung beginnt hier und wird auf dieser
+ * Zeile für eine Weile fortgeführt, bis er schließlich hier endet.
+ *
+ * Die lange Beschreibung ist ideal für detailliertere Erläuterungen und
+ * Dokumentation. Sie kann Beispiel-HTML, URLs und andere Information
+ * beinhalten, die nützlich oder notwendig erscheint.
+ *
+ * @tag Dies ist ein Schlagwort namens 'tag'
+ *
+ * @todo Dies ist eine Todo-Angabe, die eine unteilbare Aufgabe beschreibt,
+ *   die später vollendet wird. Sie bricht nach 80 Zeichen um und folgende
+ *   Zeilen sind mit zwei Leerzeichen eingerückt.
+ */
 
-/* Gutes Beispiel */
-/* Umschliessendes Element fuer .modal-title und .modal-close */
-.modal-header {
-  ...
-}
+
+/* ==========================================================================
+   Abschnitt Kommentar-Block
+   ========================================================================== */
+
+
+/* Unterabschnitt Kommentar-Block
+   ========================================================================== */
+
+
+/* Einfacher Kommentar */
