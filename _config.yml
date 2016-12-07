@@ -1,6 +1,6 @@
-name:          Codeguide von @mdo
+name:          Pomcanys Codeguide von @mdo
 description:   Richtlinien zur Entwicklung von flexiblem, wartbarem und best&auml;ndigem HTML und CSS.
-url:           http://BackendButters.github.io/code-guide/
+url:           http://pomcanys.github.io/code-guide/
 
 markdown:      rdiscount
 permalink:     pretty
